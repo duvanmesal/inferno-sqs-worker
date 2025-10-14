@@ -1,0 +1,16 @@
+{
+    "name": "event-driven-payments",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Sistema de pagos basado en eventos usando AWS Lambda, SQS y DynamoDB",
+    "dependencies": {
+        "@aws-sdk/client-dynamodb": "^3.657.0",
+        "@aws-sdk/client-sqs": "^3.657.0",
+        "aws-sdk": "^2.1692.0",
+        "dotenv": "^17.2.3",
+        "esm": "^3.2.25"
+    },
+    "devDependencies": {
+        "lambda-local": "^2.2.0"
+    }
+}
